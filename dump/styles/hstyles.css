@@ -178,6 +178,7 @@ img,video {
     width: 70%
 }
 
+figure img,figure video {
     display: block;
     float: unset;
     margin: auto;
