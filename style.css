@@ -9,6 +9,8 @@ body {
 	text-decoration: none;
 	color: maroon;
 }
+
+
 header {
 	font-family: 'GFS Didot';
 	text-align: center;
@@ -85,7 +87,7 @@ a:hover {
 	text-decoration: underline;
 }
 nav>ul>li>a:hover {
-	background-color: #333;
+	background-color: #333;	
 	color:#eee;
 	padding: 3px;
 	transition: 0.5s;

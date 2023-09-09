@@ -2,7 +2,7 @@ Aight, so I realized something when I was taking a walk this evening. On why I j
 
 
 <figure>
-<img class="him" src="\him.png">
+<img class="him" src="assets\Blog\him.png">
 <figcaption class="him">The Wild Himalaya | June'22 | Look at how I had to draw my brains out, even when I am no good at it.</figcaption>
 </figure>
 
