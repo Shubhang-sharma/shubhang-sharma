@@ -1,0 +1,21 @@
+.logo>img{
+    width: 30%
+}
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    align-items: center;
+    display: inline;
+	padding: 8px;
+}
+
+nav>ul>li>a:hover, h1.hidden:hover {
+	background-color: #333;
+	color:#eee;
+	padding: 8px;
+	transition: 0.5s;
+}
