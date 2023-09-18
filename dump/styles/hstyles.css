@@ -306,7 +306,7 @@ a.footnote::after,a.reversefootnote::after {
 }
 
 nav a:link,nav a:visited,nav a:focus,.detail a:link,.detail a:visited,.detail a:focus {
-    color: #D01137;
+    color: maroon;
     font-weight: bold
 }
 
@@ -316,7 +316,7 @@ nav a::after,.detail a::after {
 
 footer {
     color: #444;
-    text-align: right
+    text-align: justify
 }
 
 footer a:link,footer a:visited {

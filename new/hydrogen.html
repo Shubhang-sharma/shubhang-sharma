@@ -7,6 +7,8 @@
 
   <!-- <link rel="shortcut icon" type="image/png" href="/..\dump/images/favicon.ico" /> -->
   <link href="..\dump\styles\hstyles.css" rel="stylesheet">
+  <link href="..\dump\styles\pstyles.css" rel="stylesheet">
+
 
   <script>
     MathJax = {
@@ -24,24 +26,32 @@
   <title>
     The Hydrogen Atom Story
   </title>
+
 </head>
 
 <body>
 
   <header>
+    <nav>
+      <ul>
+        <li class="nav"><a href="..\index.html" class="link"> Home </a></li>
+      </ul>
+    </nav>
     <h1>Hydrogen Atom :<i class="small emph"> The Harmonic Oscillator of Atomic Physics</i> </h1>
-    <i class="small">Publsihed:  on 05-09-2023 from NISER, India.</i> <br>
-    <i class="small">Note: A Hydrogen Atom blog. Pardon the unaesthetic handwritten images :/.</i> 
+    <i class="small">Publsihed: on 05-09-2023 from NISER, India.</i> <br>
+    <i class="small">Note: A Hydrogen Atom blog. Pardon the unaesthetic handwritten images :/.</i>
     <hr class="fw"> <br>
 
-    
+
 
   </header>
   <main>
-    
+
     <figure class="wide center">
       <img src="..\dump\images\Hatom\Hatom.jpg" alt="">
-      <figcaption class="small"><i><a class="no-line" href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.110.213001">Hydrogen Atoms under Magnification: Direct Observation of the Nodal Structure of Stark States.</a></i></figcaption>
+      <figcaption class="small"><i><a class="no-line"
+            href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.110.213001">Hydrogen Atoms under
+            Magnification: Direct Observation of the Nodal Structure of Stark States.</a></i></figcaption>
     </figure>
 
     <h2>Retarded Hydrogen Atom</h2>
@@ -121,7 +131,7 @@
     Doing the obvious sanity checks leaves us with $(\alpha_i)^2 = \beta^2 = 1; \alpha_i\beta + \beta\alpha_i = 0 =
     \alpha_i\alpha_j + \alpha_j\alpha_i$. With nice <a href=""><i>little discussion</i></a> on when will such properties
     be satisfied,
-    one ends up with the following
+    one ends up with the following representation,
     \begin{align}
     \bar{\alpha} = \begin{bmatrix} 0 & \bar{\sigma} \\
     \bar{\sigma} & 0
@@ -163,10 +173,26 @@
     Foldy–Wouthuysen transformation oof lectures from P40X, NISER can be found <a
       href="..\dump\notes\Hatom\Foldy.pdf">here</a>.
 
+    <h2>Zeeman Structure</h2>
+
+    <p>In explaining the Fine strcture of Hydrogen atom, we used the Dirac equation and added an electromagnetic
+      interaction term, eventually assuming only the internal coloumbic electric field to be present i.e. no other
+      external electric or magnetic field. In this section we will introduce an external magnetic field.</p>
+
+      <p>The strategy is as follows - Start with the good old not so fine Hamiltonian and  
+      </p>
+
   </main>
 
   <footer>
-    <p>-Shubhang Sharma</p>
+    Credits:
+    <ol>
+      <li>Barton Zwebach, MIT OCW, 8.06</li>
+      <li>Ayush Singh's Github for fonts and styling</li>
+      <li>P40x, NISER</li>
+      <li>Topics in Aatomic Physics, Burkhardt and Leventhal</li>
+    </ol>
+    
   </footer>
 </body>
 

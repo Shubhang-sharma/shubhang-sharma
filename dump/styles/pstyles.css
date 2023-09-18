@@ -16,6 +16,6 @@ nav>ul {
 nav>ul>li>a:hover, h1.hidden:hover {
 	background-color: #333;
 	color:#eee;
-	padding: 8px;
+	padding: 6px;
 	transition: 0.5s;
 }
