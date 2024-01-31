@@ -95,6 +95,33 @@ nav>ul>li>a:hover {
 	text-decoration: none;
 }
 
+figure img,figure video {
+    display: block;
+    float: unset;
+    margin: auto;
+    padding: 1rem 0
+}
+
+figure figcaption {
+    font-size: 2.07rem;
+    text-align: center
+}
+
+img,video {
+    margin-left: 1.6rem;
+    width: 24%
+}
+
+
+.wide img,.wide video {
+    width: 90%
+}
+
+img.mid {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
 
 footer {
 	align-items: center;
