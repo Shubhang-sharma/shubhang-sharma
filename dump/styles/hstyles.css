@@ -189,6 +189,9 @@ h3 {
 font-size:smaller;
 }
 
+.right {
+    text-align: right;
+}
 .center{
 text-align:center;
 }
