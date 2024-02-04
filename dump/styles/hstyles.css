@@ -157,11 +157,6 @@ h2 {
     font-size: 2.53rem;
 }
 
-i:hover{
-    background-color: #333;
-    color:#eee;
-	/* transition: 0.1s; */
-}
 
 h2:hover{
 	background-color: #333;
@@ -209,6 +204,20 @@ img.mid {
     display: block;
     margin: 0 auto;
     width: 75%;
+}
+
+
+div.mid {
+    text-align: center;
+    align: center;
+}
+div.pad {
+    padding: 20px;
+    margin: 10px;
+}
+
+div.pad:hover{
+    background-color: #f4f0f0;
 }
 
 
